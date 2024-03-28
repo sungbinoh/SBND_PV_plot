@@ -3,8 +3,8 @@ import psycopg2
 from psycopg2 import Error
 import matplotlib.pyplot as plt
 
-connection = psycopg2.connect(user="dcs_reader",
-                                  password="qcd56RUc",
+connection = psycopg2.connect(user="<username>",
+                                  password="<password>",
                                   host="sbnd-db01.fnal.gov",
                                   port="5434",
                                   database="sbnd_online_prd")
